@@ -15,6 +15,7 @@
 		96850D4123D69C7B00BF1485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96850D3F23D69C7B00BF1485 /* LaunchScreen.storyboard */; };
 		96850D4C23D69C7B00BF1485 /* QuickLookDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96850D4B23D69C7B00BF1485 /* QuickLookDemoTests.swift */; };
 		96850D5723D69C7B00BF1485 /* QuickLookDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96850D5623D69C7B00BF1485 /* QuickLookDemoUITests.swift */; };
+		96850D6523D6A04200BF1485 /* test.docx in Resources */ = {isa = PBXBuildFile; fileRef = 96850D6423D6A04200BF1485 /* test.docx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		96850D5223D69C7B00BF1485 /* QuickLookDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickLookDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96850D5623D69C7B00BF1485 /* QuickLookDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookDemoUITests.swift; sourceTree = "<group>"; };
 		96850D5823D69C7B00BF1485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96850D6423D6A04200BF1485 /* test.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.docx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		96850D3323D69C7A00BF1485 /* QuickLookDemo */ = {
 			isa = PBXGroup;
 			children = (
+				96850D6423D6A04200BF1485 /* test.docx */,
 				96850D3423D69C7A00BF1485 /* AppDelegate.swift */,
 				96850D3623D69C7A00BF1485 /* SceneDelegate.swift */,
 				96850D3823D69C7A00BF1485 /* ViewController.swift */,
@@ -235,6 +238,7 @@
 				96850D4123D69C7B00BF1485 /* LaunchScreen.storyboard in Resources */,
 				96850D3E23D69C7B00BF1485 /* Assets.xcassets in Resources */,
 				96850D3C23D69C7A00BF1485 /* Main.storyboard in Resources */,
+				96850D6523D6A04200BF1485 /* test.docx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KTP58KSW9;
 				INFOPLIST_FILE = QuickLookDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KTP58KSW9;
 				INFOPLIST_FILE = QuickLookDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
