@@ -3,7 +3,6 @@ QuickLook.frameWork 文件预览框架使用
 
 # QuickLook库可以让我们的App在iPhone/iPad中直接预览文件,官方的开发文档中说明其支持的文件类型有:
 
-``
 1、iWork documents
 
 2、Microsoft Office documents (Office ‘97 and newer)
@@ -18,4 +17,3 @@ QuickLook.frameWork 文件预览框架使用
 
 7、Comma-separated value (csv) files
 
-``
